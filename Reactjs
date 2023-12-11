@@ -11,3 +11,10 @@ reusable components that can be used in different applications.
 
 4) Ui without Reactjs?
 A)we can build Ui without reactjs but for big size applications it will be more difficulty.We need to write HTMl tags and use the js to add the event handing to wire everything up.
+
+5) How to install Reactjs?
+A) 1. Install the Nodejs first.
+ 2. open VSCODE in the terminal check for node and npm version. node -v and npm -v
+ 3.intall the react app by : npx create-react-app myfirstapp
+4: Open that folder and type: npm start
+
