@@ -1,0 +1,24 @@
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+
+  function userdetails(user) {
+
+    return user.firstname + user.lastname
+
+  }
+
+  const user = {
+    firstname: "rashni",
+    lastname: "masooram"
+  }
+
+  return (
+    <div>
+      Hello, {userdetails(user)}
+    </div>
+  );
+}
+
+export default App;
