@@ -1,2 +1,3 @@
 1) what is reactjs?
-A)Reactjs is the JS-Ui library used to build the Ui components by the developers and used to build a user interface.It was deeveloped by facebook and released in 2013
+A)Reactjs is the JS-Ui library used to build the Ui components by the developers and used to build a user interface.It was deeveloped by facebook and released in 2013.
+It allow to build the Ui by declaritely writing JS code. Js code is maintained by react. If any changes happend in the compoents reactjs will take care to rerendering and assigning.
