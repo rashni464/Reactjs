@@ -21,3 +21,7 @@ A) 1. Install the Nodejs first.
 6) what are components and props?
 A) components are the js functions which takes props as arguments and return the JSX.
 
+7) WHAT IS STATE?
+A)A state will be the local state of the component whenever the state is changed the component will rerender the updated JSX.
+Inorder to use state we have a hook called useState. 
+
