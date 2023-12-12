@@ -71,4 +71,10 @@ A)Synthetic events combine the response of different browser's native events int
 ensuring that the events are consistent across different browsers.
 The application is consistent regardless of the browser it is running in. Here, preventDefault is a synthetic event.
 
+13)Eplain how lists work in React?
+A)We create lists in React as we do in regular JavaScript. Lists display data in an ordered format.
+The traversal of lists is done using the map() function.
+
+14)
+
 
