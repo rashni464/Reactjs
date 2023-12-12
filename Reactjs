@@ -138,4 +138,9 @@ Reducer: Specifies how the application's state changes in response to actions se
 A)Flux is the application architecture that Facebook uses for building web applications. 
 It is a method of handling complex data inside a client-side application and manages how data flows in a React application.
 
+23)What is React Router?
+A)React Router is a routing library built on top of React, which is used to create routes in a React application.
+It maintains consistent structure and behavior and is used to develop single-page web applications. 
+Enables multiple views in a single application by defining multiple routes in the React application.
+
 
