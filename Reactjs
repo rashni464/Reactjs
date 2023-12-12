@@ -130,8 +130,12 @@ A)Redux is an open-source, JavaScript library used to manage the application sta
 uses Redux to build the user interface.  is used for the entire application’s state management.
 
 21)What are the components of Redux?
-Store: Holds the state of the application.
+A)Store: Holds the state of the application.
 Action: The source information for the store.
 Reducer: Specifies how the application's state changes in response to actions sent to the store.
+
+22)What is the Flux?
+A)Flux is the application architecture that Facebook uses for building web applications. 
+It is a method of handling complex data inside a client-side application and manages how data flows in a React application.
 
 
