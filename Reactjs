@@ -103,14 +103,18 @@ It is unnecessary to bind ‘this’ inside the constructor when using an arrow 
 This prevents bugs caused by the use of ‘this’ in React callbacks.
 
 17) What is the use of render() in React?
-It is required for each component to have a render() function. This function returns the HTML, which is to be 
+A)It is required for each component to have a render() function. This function returns the HTML, which is to be 
 displayed in the component.If you need to render more than one element, all of the elements must be inside one parent tag like 
 <div>, <form>.
 
 18)What is a state in React?
-The state is a built-in React object that is used to contain data or information about the component. 
+A)The state is a built-in React object that is used to contain data or information about the component. 
 The state in a component can change over time, and whenever it changes, the component re-renders.
 The change in state can happen as a response to user action or system-generated events. It determines 
 the behavior of the component and how it will render.
 
+19) What are props in React?
+A)Props are short for Properties. It is a React built-in object that stores the value of attributes of a tag and 
+works similarly to HTML attributes.Props provide a way to pass data from one component to another component. 
+Props are passed to the component in the same way as arguments are passed in a function.
 
