@@ -75,6 +75,10 @@ The application is consistent regardless of the browser it is running in. Here, 
 A)We create lists in React as we do in regular JavaScript. Lists display data in an ordered format.
 The traversal of lists is done using the map() function.
 
-14)
+14)Why is there a need for using keys in Lists?
+A)A key is a unique identifier and it is used to identify which items have changed, 
+been updated or deleted from the lists.
+It also helps to determine which components need to be re-rendered instead of re-rendering all the components every time. 
+Therefore, it increases performance, as only the updated components are re-rendered.
 
 
