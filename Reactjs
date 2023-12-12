@@ -41,3 +41,8 @@ A unidirectional data flow means that when designing a React app, you often nest
 High performance: React updates only those components that have changed, rather than updating all the components at once. 
 This results in much faster web applications.
 
+9)Can web browsers read JSX directly? 
+Web browsers cannot read JSX directly. This is because they are built to only read regular JS objects and JSX is not a regular 
+JavaScript object.For a web browser to read a JSX file, the file needs to be transformed into a regular JavaScript object. 
+For this, we use Babel
+
