@@ -20,6 +20,16 @@ A) 1. Install the Nodejs first.
 
 6) what are components and props?
 A) components are the js functions which takes props as arguments and return the JSX.
+Components are the building blocks of any React application, and a single app usually consists of multiple components.
+A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts 
+that can be processed separately.
+
+2 types of Compoenents
+1)Functional Components: These types of components have no state of their own and only contain render methods, and therefore are 
+also called stateless components. They may derive data from other components as props (properties).
+
+2)Class Components: These types of components can hold and manage their own state and have a separate render method to return JSX
+on the screen. They are also called Stateful components as they can have a state.
 
 7) WHAT IS STATE?
 A)A state will be the local state of the component whenever the state is changed the component will rerender the updated JSX.
