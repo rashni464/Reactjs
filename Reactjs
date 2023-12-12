@@ -87,6 +87,10 @@ Using forms, users can interact with the application and enter the required info
 Form contain certain elements, such as text fields, buttons, checkboxes, radio buttons, etc
 Forms are used for many different tasks such as user authentication, searching, filtering, indexing, etc
 
-16) 
+16)  What is an arrow function and how is it used in React?
+A)An arrow function is a short way of writing a function to React.
+It is unnecessary to bind ‘this’ inside the constructor when using an arrow function. 
+This prevents bugs caused by the use of ‘this’ in React callbacks.
+
 
 
