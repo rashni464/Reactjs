@@ -66,4 +66,9 @@ errors and know where the problem occurs in an application at the moment.
 A)An event is an action that a user or system may trigger, such as pressing a key, a mouse click, etc.
 React events are named using camelCase, rather than lowercase in HTML. Exaple: onclick, onPress
 
+12)What are synthetic events in React?
+A)Synthetic events combine the response of different browser's native events into one API, 
+ensuring that the events are consistent across different browsers.
+The application is consistent regardless of the browser it is running in. Here, preventDefault is a synthetic event.
+
 
