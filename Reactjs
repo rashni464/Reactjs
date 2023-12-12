@@ -5,6 +5,13 @@ It allow to build the Ui by declaritely writing JS code. Js code is maintained b
 2) WHAT IS DOM?
 A) DOM stands fordocuments object model. It is a tree like structure used to represent the structure of elements presnet in the HTML document.
 
+3)Explain the lifecycle methods of components.
+getInitialState(): This is executed before the creation of the component.
+componentDidMount(): Is executed when the component gets rendered and placed on the DOM.
+shouldComponentUpdate(): Is invoked when a component determines changes to the DOM and returns a “true” or “false” value based on certain conditions.
+componentDidUpdate(): Is invoked immediately after rendering takes place.
+componentWillUnmount(): Is invoked immediately before a component is destroyed and unmounted permanently.
+
 3) WHAT IS REACTDOM?
 A)ReactDOM is used to render componets and elements in the web application. It is part of react library used to create the user interface and dynamic web applications and
 reusable components that can be used in different applications.
