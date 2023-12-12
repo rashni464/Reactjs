@@ -81,4 +81,12 @@ been updated or deleted from the lists.
 It also helps to determine which components need to be re-rendered instead of re-rendering all the components every time. 
 Therefore, it increases performance, as only the updated components are re-rendered.
 
+15)What are forms in React?
+React employs forms to enable users to interact with web applications.
+Using forms, users can interact with the application and enter the required information whenever needed. 
+Form contain certain elements, such as text fields, buttons, checkboxes, radio buttons, etc
+Forms are used for many different tasks such as user authentication, searching, filtering, indexing, etc
+
+16) 
+
 
