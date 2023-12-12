@@ -129,3 +129,9 @@ Props are passed to the component in the same way as arguments are passed in a f
 A)Redux is an open-source, JavaScript library used to manage the application state. React
 uses Redux to build the user interface.  is used for the entire application’s state management.
 
+21)What are the components of Redux?
+Store: Holds the state of the application.
+Action: The source information for the store.
+Reducer: Specifies how the application's state changes in response to actions sent to the store.
+
+
