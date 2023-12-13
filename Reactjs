@@ -150,4 +150,16 @@ A) es6: introduced two ways of declaring variables let and constant.
 es5: it used var
 2: React components were often defined using ES5 constructor functions.
 
+experience
+I was working on risk arrgreation tool where leadship can monitor schedule jobs .
+grapghs: chartjs
+ui: reactjs-version 17 (there are not)
+backend: springboot 3, java-10
+
+jest.js- for testing we use jest.js- which has expect
+
+cucumber- its a bridge bewteen developers and business people. its a bheviour driven development. which has scnerio, given, ,when,then.
+
+webdrivenio: helps to run test sceniors in the browser.
+
 
