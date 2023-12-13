@@ -162,4 +162,10 @@ cucumber- its a bridge bewteen developers and business people. its a bheviour dr
 
 webdrivenio: helps to run test sceniors in the browser.
 
+Dockers:Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker is a popular tool that 
+is used to create, deploy, and run apps by using containers. Developers make use of docker containers to package applications using libraries and other dependencies.
+
+Kuberneties: Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management. 
+includes built-in commands for deploying applications, rolling out changes to your applications, scaling your applications up and down to fit changing needs, 
+monitoring your applications, and more—making it easier to manage applications.
 
