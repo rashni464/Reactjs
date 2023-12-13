@@ -105,9 +105,8 @@ Form contain certain elements, such as text fields, buttons, checkboxes, radio b
 Forms are used for many different tasks such as user authentication, searching, filtering, indexing, etc
 
 16)  What is an arrow function and how is it used in React?
-A)An arrow function is a short way of writing a function to React.
-It is unnecessary to bind ‘this’ inside the constructor when using an arrow function. 
-This prevents bugs caused by the use of ‘this’ in React callbacks.
+A)An arrow function is a short way of writing a function to React.It automatically inheriting the this value from the surrounding context,
+which eliminates common this scoping issues in React components.
 
 17) What is the use of render() in React?
 A)It is required for each component to have a render() function. This function returns the HTML, which is to be 
@@ -142,5 +141,13 @@ It is a method of handling complex data inside a client-side application and man
 A)React Router is a routing library built on top of React, which is used to create routes in a React application.
 It maintains consistent structure and behavior and is used to develop single-page web applications. 
 Enables multiple views in a single application by defining multiple routes in the React application.
+
+24)es5 and es6
+A) es6: introduced two ways of declaring variables let and constant.
+2:arraw function was used in es6
+3:ES6 introduced classes, which provide a more structured and object-oriented approach to building components
+
+es5: it used var
+2: React components were often defined using ES5 constructor functions.
 
 
