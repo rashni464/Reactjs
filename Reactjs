@@ -168,6 +168,7 @@ is used to  deploy, and run apps by using containers. Developers make use of doc
 Different types of hooks:
 Use state: most commenly used react hook. which has variable and ffunction. this function changes the variable value.
 useEffect: after the component has been rendered It enables performing side effects, such as data fetching, subscriptions, or DOM manipulations.
+useRef: It is used to access DOMelements
 
 Kuberneties:it is used to manage the cluster. cluster contains multple racks nad racks have multiple servers. 'Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management. 
 includes built-in commands for deploying applications, rolling out changes to your applications, scaling your applications up and down to fit changing needs, 
