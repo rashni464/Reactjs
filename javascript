@@ -90,3 +90,8 @@ var output = 10;
 while (output<=10){
 output++;
 }
+----------------------------------
+methods introduced in ES5:
+Array features: isArray(), map(),filter(), forEach(), every(), some(), indexOf(), lastIndexOf()
+Json features: stringify()
+date features: valueOf()
