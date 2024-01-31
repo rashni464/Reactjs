@@ -27,4 +27,10 @@ array: If you want to store more than 1 value we can use arrays.
   console.log(value);
 output: [1,2,3,4,5]
 
+OBJECTS: 
+ var person = {name: "Rashni",
+                age: 4};
+  console.log(person.name);
+output: [Rashni]
+
 
