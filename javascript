@@ -22,3 +22,9 @@ To know the data type of data we can use typeof method.
 output: string
 
 ARRAYS AND OBJECTS
+array: If you want to store more than 1 value we can use arrays.
+ var value = [1,2,3,4,5];
+  console.log(value);
+output: [1,2,3,4,5]
+
+
