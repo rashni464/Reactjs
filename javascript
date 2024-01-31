@@ -43,7 +43,7 @@ Output: 10
 -------------------------------------------------
 CONDITIONAL STATEMENTS:
 we have 3 type if, if else, if esle if else.
-
+NOTE: we write condition if and no condition is on else.
 if:
 var score = 85;
 if (score>80){
@@ -58,6 +58,21 @@ console.log('grade A')
 }else 
 {
 console.log('grade b')
+}
+
+Output: grade A
+
+if else if else
+
+var score = 85;
+if (score>80){
+console.log('grade A')
+}else if (score <60)
+{
+console.log('grade b')
+}else 
+{
+console.log('grade c')
 }
 
 Output: grade A
