@@ -1,4 +1,5 @@
 javascript fundamental concepts:
+
 variable declations: 
 
  var name = "rashni";
