@@ -12,3 +12,8 @@ output: 4
 String: var name = "ras";
         console.log(name);
 output: ras
+
+To know the data type of data we can use typeof method.
+ var name = "ras";
+        console.log(typeof(name);
+output: string
