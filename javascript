@@ -76,5 +76,17 @@ console.log('grade c')
 }
 
 Output: grade A
+-------------------------------------------
+LOOPING CONCEPTS: 
+For loop:
+for var(i=0; i<5; i++){
+console.log(i);
+}
 
+output: 1,2,3,4
 
+For while:
+var output = 10;
+while (output<=10){
+output++;
+}
