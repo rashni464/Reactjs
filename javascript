@@ -95,3 +95,29 @@ methods introduced in ES5:
 Array features: isArray(), map(),filter(), forEach(), every(), some(), indexOf(), lastIndexOf()
 Json features: stringify()
 date features: valueOf()
+
+isArray():
+var data =1;
+console.log(Array.isArray(data));
+
+output: false (as it is not a array value)
+
+map():
+var list = [1,2,3,4];
+list.map(
+function(element){
+console.log(element)
+}
+)
+
+output: 1,2,3,4
+
+var list = [1,2,3,4];
+var increment=list.map(
+function(element){
+return element+1
+}
+)
+
+output: 2,3,4,5
+
