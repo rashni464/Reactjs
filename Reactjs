@@ -174,3 +174,8 @@ Kuberneties:it is used to manage the cluster. cluster contains multple racks nad
 includes built-in commands for deploying applications, rolling out changes to your applications, scaling your applications up and down to fit changing needs, 
 monitoring your applications, and more—making it easier to manage applications.
 
+Why to use NPX to start the new project in reactjs?
+A) to start a new project we need create-react-app module that needs to be downloaded globally. But as we don't often
+create the new application we can download it with npx create-react-app and file name.
+
+
