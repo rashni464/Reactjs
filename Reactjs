@@ -178,4 +178,34 @@ Why to use NPX to start the new project in reactjs?
 A) to start a new project we need create-react-app module that needs to be downloaded globally. But as we don't often
 create the new application we can download it with npx create-react-app and file name.
 
+How many ways we can write the function?
+A) We can write 3ways.
+1st way:
+function Test(){
+return (
+<div>
+<h1>Hello World </h1>
+</div>
+)
+}
+export default Test;
 
+2nd way:
+const Test = function(){
+return(
+<div>
+<h1>Hello World </h1>
+</div>
+)
+}
+export default Test;
+
+3rd wat: arrow function
+const Test=() =>{
+return(
+<div>
+<h1>Hello World </h1>
+</div>
+)
+}
+export default Test;
