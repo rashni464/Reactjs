@@ -253,3 +253,8 @@ A function that contains the code to be executed. This function is often referre
 
 An optional dependency array. If provided, the effect will only re-run if any of the dependencies change between renders. 
 If omitted, the effect runs after every render.
+-----------------------------------
+use state?
+The useState hook is a fundamental hook in React that allows functional components to manage state. It provides a way to declare
+state variables in functional components, enabling them to have their own stateful data. The useState hook returns an array with
+two elements: the current state value and a function to update that value.
