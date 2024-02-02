@@ -208,7 +208,7 @@ return(
 </div>
 )
 }
-
+-------------------------------
 Mounting Phase:
 
 constructor: The constructor is called when an instance of the component is being created.
@@ -241,3 +241,15 @@ to capture the error and update its state accordingly.
 componentDidCatch: This method is called after an error has been caught during rendering. It's used for logging error 
 information and displaying a fallback UI.
 export default Test;
+
+--------------------
+use effect?
+The useEffect hook in React is used for handling side effects in functional components. Side effects can include data fetching, 
+subscriptions, manual DOM manipulations, and more. The useEffect hook is a replacement for lifecycle methods like 
+componentDidMount, componentDidUpdate, and componentWillUnmount in class components.
+The useEffect hook takes two arguments:
+
+A function that contains the code to be executed. This function is often referred to as the "effect."
+
+An optional dependency array. If provided, the effect will only re-run if any of the dependencies change between renders. 
+If omitted, the effect runs after every render.
