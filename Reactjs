@@ -208,4 +208,36 @@ return(
 </div>
 )
 }
+
+Mounting Phase:
+
+constructor: The constructor is called when an instance of the component is being created.
+static getDerivedStateFromProps: This method is called before every render, and it's used to update the state based on the props.
+render: This is where the UI is generated based on the component's state and props.
+componentDidMount: This method is called after the component has been rendered to the DOM. It is often used to perform actions such as
+data fetching.
+
+Updating Phase:
+
+static getDerivedStateFromProps: Similar to the mounting phase, this method is called before every render during the updating
+phase.
+shouldComponentUpdate: This method is called before rendering, and it allows you to control whether the component should
+re-render or not.
+render: The UI is re-rendered based on updated state and props.
+getSnapshotBeforeUpdate: This method is called right before the changes from the virtual DOM are to be reflected in the 
+actual DOM. It allows you to capture some information from the DOM.
+componentDidUpdate: This method is called after the component is updated in the DOM. It's often used for side effects like 
+network requests.
+
+Unmounting Phase:
+
+componentWillUnmount: This method is called just before the component is removed from the DOM. It is used to perform cleanup
+operations, such as canceling network requests or clearing up subscriptions.
+
+Error Handling:
+
+static getDerivedStateFromError: This method is called when there's an error during rendering, and it allows the component 
+to capture the error and update its state accordingly.
+componentDidCatch: This method is called after an error has been caught during rendering. It's used for logging error 
+information and displaying a fallback UI.
 export default Test;
