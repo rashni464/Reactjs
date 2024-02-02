@@ -258,3 +258,8 @@ use state?
 The useState hook is a fundamental hook in React that allows functional components to manage state. It provides a way to declare
 state variables in functional components, enabling them to have their own stateful data. The useState hook returns an array with
 two elements: the current state value and a function to update that value.
+----------------------------------
+useref?
+The useRef hook in React is used to create a mutable object that persists throughout the lifecycle of the component. Unlike the useState
+hook, the useRef hook doesn't cause a re-render when the value changes. It's commonly used for accessing and interacting with DOM elements,
+as well as for persisting values across renders without triggering a re-render.
