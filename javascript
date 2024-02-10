@@ -116,7 +116,7 @@ console.log(Array.isArray(data));
 
 output: false (as it is not a array value)
 
-map():
+map(): We use it to iterate the array of values and to modify any of value in that particular array.
 var list = [1,2,3,4];
 list.map(
 function(element){
