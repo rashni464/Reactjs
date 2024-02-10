@@ -92,14 +92,14 @@ console.log('grade c')
 Output: grade A
 -------------------------------------------
 LOOPING CONCEPTS: If you want to repeat a action multiple times then we do looping.
-For loop:
+For loop: If you know what to assign to variable and how much to increament we can use for loop.
 for var(i=0; i<5; i++){
 console.log(i);
 }
 
 output: 1,2,3,4
 
-For while:
+For while: In while loop wecan assign value to variable inside the whileloop. 
 var output = 10;
 while (output<=10){
 output++;
