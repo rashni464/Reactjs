@@ -161,3 +161,16 @@ output:
 3
 4
 -----------------------------
+every: It will check wheater all the values are satisfying the condition or not. Itsatisfies it will give true if not then false.
+var employees = [1,2,3,4];
+var output = employees.every(function(data){
+  
+return data>4;
+
+})
+
+console.log(output)
+
+output: false.
+----------------------
+
