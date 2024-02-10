@@ -236,5 +236,18 @@ const user = (a) =>
 
 output: 15
 ----------------------------------------
+-------------------------------------------------------
+-----------------------------------------
+Classes:
+In the es6 classes got introduced. Inside the classes we can create the multiple methods. If you want to use that inside methods in a class
+we need to create a new object.
 
+class User{
+  admin(){
+    console.log("admin")
+  }
+}
+ let obj = new User
+ obj.admin();
 
+output: admin
