@@ -227,3 +227,13 @@ const: if we declare the value is const we cannot reassign other value for same 
 arrow function:its the short way of writing the function.
 const user = () =>{console.log("hello")};
 user();
+
+example2:
+const user = (a) =>
+{return a+5};
+ var value = user(10);
+
+output: 15
+----------------------------------------
+
+ console.log(value)
