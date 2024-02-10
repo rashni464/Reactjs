@@ -185,3 +185,13 @@ console.log(output)
 
 output: true
 --------------------------
+indexOf: If you want tofind the index  of value then we can use this.
+
+var employees = [1,2,3,4];
+console.log(employees.indexOf(4))
+----------------------
+lastIndexOf: If you have multiple dublicate values and what to find the last dublicate value index then we can use this
+var employees = [1,2,3,4,6,4];
+console.log(employees.lastIndexOf(4))
+
+output: 5
