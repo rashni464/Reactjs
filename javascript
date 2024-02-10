@@ -301,3 +301,11 @@ function person(name,...remaining){
 person("john", 20, "ravi")
 
 Output: John 20, ravi
+---------------------------------
+spread operators: If you want to spread values of 1 array to another array then we can use spread operators.
+let array1 = [1,2,3]
+let array2 = [4,5,6]
+let array3= [...array1,...array2];
+console.log(array3)
+
+output: [1,2,3,4,5,6]
