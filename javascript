@@ -173,4 +173,15 @@ console.log(output)
 
 output: false.
 ----------------------
+some: if atleast one condition satifies it willreturn true.
+var employees = [1,2,3,4];
+var output = employees.some(function(data){
+  
+return data>3;
 
+})
+
+console.log(output)
+
+output: true
+--------------------------
