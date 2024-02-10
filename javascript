@@ -339,3 +339,10 @@ Note: when you are trying to get any data from api there will be some delay as s
 async/await. Async is used to execute the code in a non blocking way(non blocking means multiples lines executing at same time
 or 3rd lines executed than 1st lines executes) so that things can be stoped my async. line by line code execution can be done 
 by using async. Whne ever you use await it will wait until you get the response then only next line gets executed. 
+-------------------------------------
+es10: function.toString() : We can convert function to string.
+function fun()
+{
+  console.log("rashni")
+}
+console.log(fun.toString());
