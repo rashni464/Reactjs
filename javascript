@@ -251,3 +251,20 @@ class User{
  obj.admin();
 
 output: admin
+
+Constructor:
+When you want to send any value to the classes then we can use constructor. when we create a class constructor() method gets exected 
+first. It will take all the arugemt values we are sending buy using this keyword. this refers current object. 
+
+class User{
+  constructor(msg){
+this.msg = msg;
+console.log(this.msg)
+  }
+  admin(){
+    console.log(this.msg)
+  }
+}
+ let obj = new User ("hi");
+ obj.admin();
+
