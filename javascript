@@ -327,3 +327,10 @@ ES 7: includes()
 Note: If you want to check wheather that particular value is there or not then we can use includes method.
 let employee = [1,2,3]
 console.log(employee.includes(3))
+-----------------------------------------
+exponentation operator:
+It is used to check  the power of the operator.
+console.log(2**2)
+
+output: 4
+-------------------------
