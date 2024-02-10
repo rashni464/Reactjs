@@ -223,3 +223,7 @@ let and const:
 var: if we declare the value is var we can access that globally.
 let: if we declare the value is let we can access that locally.
 const: if we declare the value is const we cannot reassign other value for same data.
+---------------------------------
+arrow function:its the short way of writing the function.
+const user = () =>{console.log("hello")};
+user();
