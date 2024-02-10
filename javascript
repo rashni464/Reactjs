@@ -195,3 +195,15 @@ var employees = [1,2,3,4,6,4];
 console.log(employees.lastIndexOf(4))
 
 output: 5
+----------------------------------------------------------
+------------------------------------------------------------
+stringify: It will convert the object into JSON. In the object keys wont be in double quotes.
+var employees = {
+  name: "rashni",
+  age: 4
+}
+var output = JSON.stringify(employees);
+console.log(output)
+
+output: {"name":"rashni","age":4}
+-------------------------------------------
