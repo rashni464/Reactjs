@@ -267,4 +267,30 @@ console.log(this.msg)
 }
  let obj = new User ("hi");
  obj.admin();
+-----------------------------------------------------------------------
+for-of:
+const array = [1,2,3,4,5];
+for(const a of array){
+  console.log(a)
+}
+
+output: 1
+2
+3
+4
+5
+--------------------------
+Default parameter: When you want to send multiple values which out assigning that in parameter then we can use defalut parametr
+function person(name, age=  15){
+  console.log(name + age)
+}
+
+person("john", 20)
+
+Output: John 20
+
+Note: From the above example I can send the age or skop the age. If I send the age it will give me the latest age if not it will 
+give the parameter age.
+
+-----------------------------------
 
