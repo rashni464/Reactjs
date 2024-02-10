@@ -207,3 +207,12 @@ console.log(output)
 
 output: {"name":"rashni","age":4}
 -------------------------------------------
+valueOf:to get the present date we needto use the date method and toconvert that date into milli seconds we can use valueOf.
+var date = new Date();
+console.log(date.valueOf());
+
+output: 123
+var date = new Date();
+console.log(date.valueOf());
+
+1707598395691
