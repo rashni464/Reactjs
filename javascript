@@ -293,4 +293,11 @@ Note: From the above example I can send the age or skop the age. If I send the a
 give the parameter age.
 
 -----------------------------------
+rest operators:  If I want to send multiple arrguments with out assign in the parameter then I can give ... with some name. 
+function person(name,...remaining){
+  console.log(name + " "+ remaining)
+}
 
+person("john", 20, "ravi")
+
+Output: John 20, ravi
