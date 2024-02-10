@@ -309,3 +309,15 @@ let array3= [...array1,...array2];
 console.log(array3)
 
 output: [1,2,3,4,5,6]
+-----------------------------------------
+Destructoring:
+
+let employee = {
+  name : "rashni",
+  age : 25
+}
+
+const [name,age] = employee ;
+console.log(name);
+
+Note: Insead of using employee.name we can directly use name. 
