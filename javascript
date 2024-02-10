@@ -135,5 +135,14 @@ return element+1
 
 output: 2,3,4,5
 
+---------------------------------
+filter: If you want to add any condition then based on that condition it will filter the value and provide the result
+var employees = [1,2,3,4];
+var output = employees.filter(function(data){
+  
+return data>2;
 
-i
+})
+console.log(output)
+
+output: [2,3,4];
