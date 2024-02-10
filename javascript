@@ -216,3 +216,10 @@ var date = new Date();
 console.log(date.valueOf());
 
 1707598395691
+-----------------------------------------------------
+--------------------------------------------------
+Methods introduced in ES6 - let and const, arrow, classes, for-of, default parameter, rest operator, spread operator,destricting.
+let and const:
+var: if we declare the value is var we can access that globally.
+let: if we declare the value is let we can access that locally.
+const: if we declare the value is const we cannot reassign other value for same data.
