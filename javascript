@@ -40,6 +40,20 @@ console.log(num1)
 user(10);
 
 Output: 10
+
+--------
+Functions with return
+
+function add(a,b){
+  var c = a + b
+  return c;
+
+}
+var output = add(10,5);
+console.log(output)
+
+Note: When we are adding any thing and returning that particular value will be assigned to add. So to use the assigned value
+we need to declare that to variable.
 -------------------------------------------------
 CONDITIONAL STATEMENTS:
 we have 3 type if, if else, if esle if else.
@@ -121,3 +135,5 @@ return element+1
 
 output: 2,3,4,5
 
+
+i
