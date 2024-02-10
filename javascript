@@ -232,8 +232,9 @@ example2:
 const user = (a) =>
 {return a+5};
  var value = user(10);
+ console.log(value)
 
 output: 15
 ----------------------------------------
 
- console.log(value)
+
