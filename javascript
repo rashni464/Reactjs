@@ -91,7 +91,7 @@ console.log('grade c')
 
 Output: grade A
 -------------------------------------------
-LOOPING CONCEPTS: 
+LOOPING CONCEPTS: If you want to repeat a action multiple times then we do looping.
 For loop:
 for var(i=0; i<5; i++){
 console.log(i);
