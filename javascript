@@ -317,7 +317,8 @@ let employee = {
   age : 25
 }
 
-const [name,age] = employee ;
+const 
+{name,age} = employee ;
 console.log(name);
 
 Note: Insead of using employee.name we can directly use name. 
