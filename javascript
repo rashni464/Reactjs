@@ -323,7 +323,7 @@ console.log(name);
 
 Note: Insead of using employee.name we can directly use name. 
 -----------------------------------
-ES 7: includes()
+ES 7: includes() and exponentation operator
 Note: If you want to check wheather that particular value is there or not then we can use includes method.
 let employee = [1,2,3]
 console.log(employee.includes(3))
@@ -334,3 +334,8 @@ console.log(2**2)
 
 output: 4
 -------------------------
+ES 8: async/await
+Note: when you are trying to get any data from api there will be some delay as server gets data so that delay can be managed by 
+async/await. Async is used to execute the code in a non blocking way(non blocking means multiples lines executing at same time
+or 3rd lines executed than 1st lines executes) so that things can be stoped my async. line by line code execution can be done 
+by using async. Whne ever you use await it will wait until you get the response then only next line gets executed. 
