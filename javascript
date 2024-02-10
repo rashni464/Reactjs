@@ -146,3 +146,18 @@ return data>2;
 console.log(output)
 
 output: [2,3,4];
+-------------------------------
+forEach: It is same like map function but it wont give an array as output
+var employees = [1,2,3,4];
+employees.forEach(function(data){
+  
+console.log(data)
+
+})
+
+output:
+1
+2
+3
+4
+-----------------------------
