@@ -22,3 +22,25 @@ function App() {
 }
 
 export default App;
+
+
+----------------------------------------
+Using map function if you want to display an object.
+const Fruits = () => {
+    var items = {
+        name: "apple",
+        count: 40,
+        color: "red"
+    }
+    // console.log(items.name)
+    // Object.keys(items).map((key, index)=> {
+    //         console.log(key, items[key])
+    //     }
+
+    Object.keys(items).map((key, index) => {
+        console.log(key, items[key])
+    })
+
+}
+export default Fruits;
+----------------------------------
