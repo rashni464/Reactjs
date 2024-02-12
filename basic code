@@ -72,3 +72,63 @@ const Fruits = () => {
 
 }
 export default Fruits;
+---------------------------------------------------
+If you want to map array of objects and use props..
+Frist in fruits.js:
+import Details from "./details"
+
+const Fruits = () => {
+    var items = [{
+        name: "apple",
+        count: 40,
+        color: "red"
+    },
+    {
+        name: "banana",
+        count: 140,
+        color: "yellow"
+    },
+    {
+        name: "mango",
+        count: 20,
+        color: "orange"
+    }
+    ]
+
+    const resultArr = items.map((element, i) => {
+        return <Details data={element} />
+
+    })
+
+    return resultArr
+}
+export default Fruits;
+
+
+******
+In Details.js file
+
+const Details = (props) => {
+
+    return <>
+
+        <div >name:  {props.data.name}</div>
+        <div >count:  {props.data.count}</div>
+        <div >color:  {props.data.color}</div>
+        <br />
+
+
+    </>
+
+
+}
+
+
+export default Details;
+
+----------------------------------------
+
+
+
+
+
