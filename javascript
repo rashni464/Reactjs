@@ -350,3 +350,5 @@ console.log(fun.toString());
 Oops concept: abstraction.
 Abstraction: Hiding the internal process and showing the required thingd to the user is know as abstruction.
 encapsulation: Binding data variables and methods together inside a class and hiding from other classes.
+inheritence: Using one class methods and variables into other classes.
+polymerfisum: It allows to perform the single action into multiple forms.
