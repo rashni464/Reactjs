@@ -44,3 +44,31 @@ const Fruits = () => {
 }
 export default Fruits;
 ----------------------------------
+If you want to map array of objects..
+
+const Fruits = () => {
+    var items = [{
+        name: "apple",
+        count: 40,
+        color: "red"
+    },
+    {
+        name: "banana",
+        count: 140,
+        color: "yellow"
+    },
+    {
+        name: "mango",
+        count: 20,
+        color: "orange"
+    }
+    ]
+
+    items.map((element, i) => {
+        console.log(element)
+
+    })
+
+
+}
+export default Fruits;
