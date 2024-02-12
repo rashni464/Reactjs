@@ -346,3 +346,6 @@ function fun()
   console.log("rashni")
 }
 console.log(fun.toString());
+---------------------------------
+Oops concept: abstraction.
+Abstraction: Hiding the internal process and showing the required thingd to the user is know as abstruction.
