@@ -127,8 +127,96 @@ const Details = (props) => {
 export default Details;
 
 ----------------------------------------
+If you want to  add the 
+TODOtest.js
+
+import { useRef } from "react";
+import { Col, Form, Row } from "react-bootstrap"
+import Button from 'react-bootstrap/Button'
+
+const TodoTest = (props) => {
+    const todoData = useRef(null);
+    const getData = () => {
+        props.pull(todoData.current.value)
+    }
 
 
 
+
+
+    return <>
+
+        <Row>
+            <Col>
+                <Form.Control
+
+                    id="inputPassword5"
+                    aria-describedby="passwordHelpBlock"
+                    ref={todoData}
+                /></Col>
+            <Col><Button onClick={getData} >Add</Button></Col>
+        </Row>
+
+
+    </>
+}
+export default TodoTest;
+
+App.js:
+import logo from './logo.svg';
+import './App.css';
+import TodoAdd from './components/todo-add';
+import { Container } from 'react-bootstrap';
+import TodoList from './components/todo-list';
+import { useState } from 'react';
+import TodoTest from './components/todo-test';
+import TodoTestList from './components/todo-testlist';
+
+function App() {
+
+  // const [value, setValue] = useState("");
+
+  // const getData = (data) => {
+  //   setValue(data)
+  // }
+
+  const [input, setInput] = useState()
+  const callBack = (data) => {
+    setInput(data)
+  }
+
+  return (
+    <Container>
+      {/* <TodoAdd pull={getData} />
+      <TodoList name={value} /> */}
+      <TodoTest pull={callBack} />
+      <TodoTestList name={input} />
+    </Container>
+
+  );
+}
+
+export default App;
+
+
+todolist.js
+
+import { Button, ListGroup, Table } from "react-bootstrap";
+
+const TodoTestList = (props) => {
+    return <>
+        <ListGroup>
+            <ListGroup.Item> {props.name}
+
+
+                <Button variant="warning">edit</Button>{' '}
+                <Button variant="danger">delete</Button> </ListGroup.Item>
+        </ListGroup>
+
+    </>
+}
+
+
+export default TodoTestList;
 
 
