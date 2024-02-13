@@ -218,5 +218,40 @@ const TodoTestList = (props) => {
 
 
 export default TodoTestList;
+-------------------------------------------------
 
+import axios from "axios";
+import { useEffect, useState } from "react";
+
+const AllPost = () => {
+
+    const [allPosts, setAllPosts] = useState(null)
+
+    useEffect(() => {
+
+        axios.get('http://localhost:3000/posts').then((res) => {
+            console.log(res.data)
+            
+            setAllPosts(res.data);
+        }).catch((error) => {
+            console.log(error)
+        })
+
+
+    }, []);
+
+    return (
+        <>
+        {
+            allPosts && allPosts.map((ele,i)=>{
+                return  <div> {ele.id} </div>
+            })
+        }
+            <h2>welcome to all post page</h2>
+        </>
+    )
+
+
+}
+export default AllPost;
 
