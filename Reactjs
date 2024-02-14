@@ -133,6 +133,11 @@ A)Store: Holds the state of the application.
 Action: The source information for the store.
 Reducer: Specifies how the application's state changes in response to actions sent to the store.
 
+Action: We have component or action creater which is an object that gets dispatched to redure. Redure may have 1 or many based
+on application that redure have power to check the state in the store and update the state in the central store.when
+the state is updated it triggers the subscription and then the state is passed as props to the component.Based on states
+the components get rerender.
+
 22)What is the Flux?
 A)Flux is the application architecture that Facebook uses for building web applications. 
 It is a method of handling complex data inside a client-side application and manages how data flows in a React application.
